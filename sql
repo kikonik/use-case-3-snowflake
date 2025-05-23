@@ -50,9 +50,9 @@ SELECT
     customers_json['address']['zip_code'] AS zip_code,
     customers_json['loyalty_points'] AS loyalty_points
     
-FROM RHINO_MAGIC_SHOP_DB.CUSTOMERS_DATA.raw_customers_json
+FROM RHINO_MAGIC_SHOP_DB.CUSTOMERS_DATA.raw_customers_json;
 
-SELECT * FROM RHINO_MAGIC_SHOP_DB.CUSTOMERS_DATA.td_customers
+SELECT * FROM RHINO_MAGIC_SHOP_DB.CUSTOMERS_DATA.td_customers;
     
 
 CREATE OR REPLACE TABLE RHINO_MAGIC_SHOP_DB.ORDERS_DATA.td_orders;
